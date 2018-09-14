@@ -1,0 +1,22 @@
+//Callum Dodge
+//Workshop 6
+//July 9,2018
+//100 229 178
+
+Reflection:
+
+1. The reason why the copy assignment operator checks for self-assignment before 
+doing anything else is because we need to see that the object that we are copying
+are not the same. If the information is the same, we do not really need to copy over 
+any information. If the object is not equal to the current object (&object != this)
+then we can overide the current data and copy over the new one. 
+
+2. In this lab I avoided duplication of code by using the function isEmpty() and a 
+new function named SES(). The purpose of isEmpty() is to check to see if the data 
+members are in a Safe Empty State. We can ask to see if the object is in a Safe Empty
+State by using isEmpty() instead of checking manually. The purpose of the new function 
+automatically puts the object into a Safe Empty State when called. 
+
+3. By doing this workshop, I have learned the use of assigning a specific piece of data with
+a specific size in order to decrease memory allocation. By assigning a specifc size to 
+a new data member, we are able to decrease the size of memory used. 
